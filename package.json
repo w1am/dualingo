@@ -1,0 +1,20 @@
+{
+  "private": true,
+  "scripts": {
+    "client:dev": "yarn workspace @paylingo/client start",
+    "client:prod": "yarn workspace @paylingo/client build",
+    "server": "yarn workspace @paylingo/server start",
+    "dev": "concurrently \"yarn server\" \"yarn client:dev\"",
+    "start": "node lib/server/start.js",
+    "heroku-postbuild": "YARN_CONFIG_PRODUCTION=false yarn client:prod"
+  },
+  "engines": {
+    "node": "12.18.3",
+    "npm": "6.13.7"
+  },
+  "workspaces": {
+    "packages": [
+      "lib/*"
+    ]
+  }
+}

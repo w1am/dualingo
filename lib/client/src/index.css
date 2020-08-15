@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500;600;700&display=swap');
+
+* {
+  font-family: Arial, Verdana;
+}
+
+a {
+  color: #0066c0;
+}
+
+img {
+  -webkit-user-select: none;      
+  -moz-user-select: none;
+  -ms-user-select: none;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+  background: #F4F6F7;
+}
+
+h1, h2, h3, h4, h5 {
+  margin: 0;
+  color: #333333;
+}
+
+button {
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+}
+
+select {
+  display: inline-block;
+  padding: 10px;
+  border-radius: 4px;
+  box-sizing: border-box;
+  background: white;
+  margin: 5px 0px;
+  border: 1px solid #DDDDDD;
+  color: #2d2d2d;
+  font-weight: 600;
+}
+
+option {
+  color: #2d2d2d;
+  font-weight: 600;
+  font-size: 16px;
+}
+
+input {
+  box-sizing: border-box;
+}
+
+input[type=number] {
+  padding-right: 0;
+}
+
+select:focus {
+  outline: none !important;
+  transition: 0.2s linear;
+  box-shadow: 1px 2px 10px rgba(0, 0, 0, 0.08);
+}
+
+input[type=number]::-webkit-inner-spin-button {  
+  height: 40px;
+  padding: 0px;
+  cursor: pointer;
+  opacity: 1;
+}
+
+.slick-prev:before,
+.slick-next:before {
+  color: #17399B !important;
+  transition: 0.3s !important;
+}
+
+.slick-prev:before {
+  margin-right: -20px;
+}
+
+.slick-next:before {
+  margin-left: -20px;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+  height: 10px;
+}
+
+::-webkit-scrollbar-track {
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #b2b2b2; 
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #8f9093; 
+}
