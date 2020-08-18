@@ -52,6 +52,7 @@ option {
 input {
   box-sizing: border-box;
   font-size: 14px;
+  border-style: solid;
 }
 
 input[type=number] {
