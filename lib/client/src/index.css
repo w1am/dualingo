@@ -40,7 +40,12 @@ select {
   margin: 5px 0px;
   border: 1px solid #DDDDDD;
   color: #2d2d2d;
+  cursor: pointer;
   font-weight: 600;
+}
+
+select:disabled {
+  cursor: default;
 }
 
 option {
