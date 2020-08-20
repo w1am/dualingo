@@ -55,9 +55,6 @@ option {
 }
 
 input {
-  -webkit-appearance: none;
-  -moz-appearance: none;
-  appearance: none;
   box-sizing: border-box;
   font-size: 14px;
   border-style: solid;
