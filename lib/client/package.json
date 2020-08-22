@@ -21,6 +21,7 @@
     "apollo-client": "^2.6.8",
     "apollo-link-http": "^1.5.16",
     "apollo-upload-client": "^13.0.0",
+    "axios": "^0.20.0",
     "babel-loader": "^8.0.6",
     "babel-plugin-emotion": "^10.0.29",
     "babel-runtime": "5.3.0",
